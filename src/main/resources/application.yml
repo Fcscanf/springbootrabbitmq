@@ -1,0 +1,8 @@
+#配置Rabbitmq一般除了主机不是本地需要配置主机地址，其他的启动镜像按照默认规则可不配
+spring:
+  rabbitmq:
+    host: 120.79.178.68
+    username: guest
+    password: guest
+    virtual-host: /
+    port: 5672
